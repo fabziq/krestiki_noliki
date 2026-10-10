@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="krestiki_noliki/krestiki_noliki.vcxproj" Id="9b25b66a-a842-4f4e-8df8-f180c8291c57" />
+</Solution>
