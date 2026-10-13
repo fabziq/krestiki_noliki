@@ -28,7 +28,7 @@ int main(void) {
 	}
 	set_num(arr);
 	int mode = 0;
-	printf("Chose: vs Bot = 1; vs player = 2");
+	printf("Chose: vs Bot = 1; vs player = 2\n");
 	scanf("%d", &mode);
 	switch (mode) {
 		case 1: {
@@ -40,6 +40,13 @@ int main(void) {
 			break;
 		}
 	}
+
+	for (int i = 0; i < a; i++) {
+		free(arr[i]);      
+	}
+	free(arr);             
+
+
 	return 0;
 }
 
